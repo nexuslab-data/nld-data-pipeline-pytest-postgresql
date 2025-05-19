@@ -1,0 +1,16 @@
+
+# Cached files
+.pytest_cache/**
+**/__pycache__/**
+
+# Python virtual environments
+/venv/**
+
+# IDE files
+/.idea/**
+
+# Python compiled files
+**/*.pyc
+
+# Development readme
+DEVELOPMENT.md

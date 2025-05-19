@@ -1,0 +1,14 @@
+[flyway]
+table = "history_table"
+locations = ["migrations"]
+
+[flyway.placeholders]
+database_owner_role = "db_owner"
+
+[flyway.postgresql.transactional]
+lock = false
+
+[environments.default]
+locations = ["migrations"]
+user = "default_user"
+password = "default_password"

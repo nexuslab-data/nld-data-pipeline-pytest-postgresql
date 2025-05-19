@@ -1,0 +1,6 @@
+pytest==7.4.0
+testcontainers-postgres==0.0.1rc1
+docker==7.1.0
+psycopg2==2.9.9
+numpy==2.1.2
+pandas==2.2.3
